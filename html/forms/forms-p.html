@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title-p</title>
+        <meta name="viewport" content="widtyh=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3><a href="../examples/index-p.html" target="_blank">&lt;&lt; Back To Home</a></h3>
+        
+        <form action="./add user-p.php">
+            First Name: <br>
+            <input type="text" name="firstname" value="Veera"><br>
+            Last Name: <br>
+            <input type="text" name="lastname" value="Anji"><br><br>
+            <input type="submit" value="submit">
+        </form>
+
+        <br>
+        <h3>Form without action</h3>
+        <form>
+            First Name: <br>
+            <input type="text" name="firstname" value="Veera"><br>
+            Last Name: <br>
+            <input type="text" name="lastname" value="Anji"><br><br>
+            <input type="submit" value="submit">
+        </form>
+
+        <br>
+        <h3>Form with action and Get method</h3>
+        <form action="add user-p.php" method="GET"> 
+            First name:<br>
+            <input type="text" name="firstname" value="Veera"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Anji"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <br>
+        <h3>Form with action and POST method</h3>
+        <form action="add user-p.php" method="POST">
+            First name:<br>
+            <input type="text" name="firstname" value="Veera"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Anji"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <br>
+        <h3>Form element without name element</h3>
+        <form action="add user-p.php">
+            First name:<br>
+            <input type="text" name="firstname" value="Veera"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Anji"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>

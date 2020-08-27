@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Margins-P</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .one {
+                margin: 50px;
+                border: 1px solid black;               
+            }
+
+            div {
+                border: 1px solid black;
+            }
+
+            div.first {
+                margin-left: 10%;
+            }
+
+            div.parent {
+                margin-left: 50px;
+                padding: 10px;
+            }
+
+            div.child {
+                margin-left: inherit;
+            }
+
+            div.negative-demo {
+                margin-left: -25px;
+            }
+
+            div.shothand-demo {
+                margin: 25px 50px 75px 100px;
+            }
+
+            div.auto-demo {
+                margin: auto;
+                width: 50%;
+            }
+
+            div.collapse1 {
+                margin-bottom: 50px;
+            }
+
+            div.collapse2 {
+                margin-top: 25px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h3><a href="./index-p.html">&lt;&lt; Back To Home</a></h3>
+
+        <p class="one">Paragraph with some content.</p>
+        
+        <div class="first">First</div> <br><br>
+
+        <div class="parent">
+            <div class="child">Child div content</div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="negative-demo">div with some content</div><br><br>
+
+        <div class="shorthand-demo">Div with some content</div><br><br>
+
+        <div class="auto-demo">Div with some content</div><br><br>
+
+        <div class="collapse1">Div with some content</div>
+
+        <div class="collapse2">Div with some content</div>
+
+
+    </body>
+</html>

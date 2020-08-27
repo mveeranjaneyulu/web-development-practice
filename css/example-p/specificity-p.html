@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Template-P</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                color: #d3d3d3;
+            }
+
+            .test { /* Specificity 10 */
+                color: green;
+            }
+
+            #test-id { /* Specificity 100 */
+                color: blue;
+            }
+
+            h1 { /* Specificity 1 */
+                color: red !important; /* Heighest specificity !important */
+            }
+
+            h1.test { /* Specificity 1+10=11 */
+                color: yellowgreen;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h3><a href="./index-p.html">&lt;&lt; Back To Home</a></h3>
+
+        <h1 class="test" id="test-id" style="color: aqua;">Test</h1>    
+    </body>
+</html>

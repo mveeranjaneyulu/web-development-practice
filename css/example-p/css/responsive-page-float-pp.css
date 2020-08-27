@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    background-color: rgba(211, 211, 211, 0.28);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.header {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.header.fixed-header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.header .container {
+    padding: 10px 0px 15px 0px;
+}
+
+.logo-container {
+    float: left;   
+}
+
+.logo-container .logo {
+     font-size: 23px;
+    cursor: pointer;
+}
+
+.nav-links-container {
+    float: right;
+}
+
+.nav-links-container ul {
+    list-style: none;
+    margin: 0px;
+    padding: 7px 0px 0px;
+    text-align: right;
+}
+
+.nav-links-container ul li {
+    display: inline-block;
+    padding: 0px 25px 0px 0px;
+}
+
+.nav-links-container ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.nav-links-container ul li a:hover {
+    opacity: 1;
+}
+
+.main-content {
+    margin-top: 60px;
+}
+
+.main-content .head-image img {
+    width: 100%;
+    padding: 20px 0px 10px;
+}
+
+.blog-content .post-list {
+    float: left;
+    width: 72%;
+}
+
+.blog-content .sidebars {
+    float: right;
+    width: 25%;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.card .card-header {
+    background-color: rgba(0,0,0,0.03);
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+    padding: 15px 20px;
+}
+
+.card.article-card .card-header {
+    padding: 0px;
+    height: 300px;
+}
+
+.card .card-header img {
+    width: 100%;
+    height: 300px;
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card .card-footer {
+    background-color: rgba(0,0,0,0.03);
+    border-top: 1px solid rgba(0,0,0,0.125);
+    padding: 15px 20px;
+}
+
+.card h3, .card p, .card h4 {
+    margin: 0px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+/* Extra small device (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo-container, .nav-links-container {
+        float: none;
+        text-align: center;
+    }
+}

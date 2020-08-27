@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Template-P</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div {
+                height: 150px;
+            }
+
+            .linear-top-to-bottom {
+                background: linear-gradient(red, yellow);
+            }
+
+            .linear-to-right {
+                background: linear-gradient(to right, red, yellow);
+            }
+
+            .linear-to-bottom-right {
+                background: linear-gradient(to bottom right, red, yellow);
+            }
+
+            .linear-angles-demo {
+                background: linear-gradient(-90deg, red, yellow);
+            }
+
+            .linear-multiple-color-demo {
+                background: linear-gradient(red, yellow, green);
+            }
+
+            .linear-transparent-demo {
+                background: linear-gradient(to left, rgba(255,0,0,1), rgba(255,0,0,0));
+            }
+
+            .radial-default-demo {
+                background: radial-gradient(red, yellow, green);
+            }
+
+            .radial-color-stops-demo {
+                background: radial-gradient(red 5%, yellow 25%, green 75%);
+            }
+
+            .radial-set-shape-demo {
+                background: radial-gradient(circle, red, yellow, green);
+            }
+        </style>
+    </head>
+    <body>
+        <h3><a href="./index-p.html">&lt;&lt; Back To Home</a></h3>
+
+        <h3>Linear Gradient-Top to Bottom (this is default)</h3>
+        <div class="linear-top-to-bottom"></div>
+
+        <h3>Linear Gradient-left to right</h3>
+        <div class="linear-to-right"></div>
+
+        <h3>Linear Gradient-Diagonally</h3>
+        <div class="linear-to-bottom-right"></div>
+
+        <h3>Using Angles</h3>
+        <div class="linear-angles-demo"></div>
+
+        <h3>Using Multiple color stops</h3>
+        <div class="linear-multiple-color-demo"></div>
+
+        <h3>Using Transparency</h3>
+        <div class="linear-transparent-demo"></div>
+
+        <h2>Radial Gradient</h2>
+        <h3>Radial Gradient-Evenly spaced color stops (this is default)</h3>
+        <div class="radial-default-demo"></div>
+
+        h3>Radial Gradient-Differently spaced color stops (this is default)</h3>
+        <div class="radial-color-stops-demo"></div>
+
+        <h3>Radial Gradient-Set shape</h3>
+        <div class="radial-set-shape-demo"></div>        
+    </body>
+</html>

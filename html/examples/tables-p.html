@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables Title-p</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                text-align: center;
+            }
+            .table-two, .table-two th, .table-two td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: left;
+            }
+            .colspan, .colspan th, .colspan td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <h3><a href="./index-p.html">&lt;&lt; Back To Home</a></h3>
+
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Muthukuri</td>
+                <td>Veeranjaneyulu</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Muthukuri</td>
+                <td>Naga Tirumala</td>
+                <td>25</td>
+            </tr>
+        </table>
+
+        <h2>Collapsed Borders</h2>
+        <table class="table-two">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Muthukuri</td>
+                <td>Veeranjaneyulu</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Muthukuri</td>
+                <td>Anjaneyulu</td>
+                <td>25</td>
+            </tr>
+        </table>
+
+        <h2>colspan</h2>
+        <table class="colspan">
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Mobile</th>
+            </tr>
+            <tr>
+                <td>Veeranjaneyulu</td>
+                <td>9876543210</td>
+                <td>0123456789</td>
+            </tr>
+            <tr>
+                <td>Anjaneyulu</td>
+                <td>0123456789</td>
+                <td>9876543210</td>
+            </tr>
+        </table>
+
+        <h2>rowspan</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Veeranjaneyulu</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Mobile</th>
+                <td>0123456789</td>
+            </tr>
+            <tr>
+                <td>9876543210</td>
+            </tr>
+        </table>
+    </body>
+</html>

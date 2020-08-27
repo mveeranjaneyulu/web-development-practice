@@ -1,0 +1,202 @@
+body {
+    background-color: rgba(211, 211, 211, 0.28);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 0px;
+}
+
+.header {
+    background-color: #343A40;
+    color: #ffffff;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.header .container {
+    padding: 10px 0px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.logo-content .logo {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.nav-links-content ul {
+    margin: 0px;
+    list-style: none;
+    padding: 7px 0px 0px 0px;
+}
+
+.nav-links-content ul li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.nav-links-content ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.nav-links-content ul li a:hover {
+    opacity: 1;
+}
+
+.main-content {
+    margin-top: 70px;
+}
+
+.main-content .head-image img {
+    width: 100%;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card.article-card .card-header {
+    padding: 0px;
+    height: 300px;
+}
+
+.card .card-header img{
+    width: 100%;
+    height: 300px;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.blog-content .post-list {
+    width: 72%;
+}
+
+.blog-content .sidebars {
+    width: 25%;
+}
+
+.card .card-header {
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 15px 20px;
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card h3, .card p, .card h4 {
+    margin: 0;
+}
+
+.card-footer {
+    background-color:rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding: 15px 20px;
+}
+
+.footer {
+    background-color: #343A40;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: 20px; 
+}
+
+/* Meadia Queries */
+/* Extra small devices (phones, 600px down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 97%;
+    }
+
+    .header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+   .logo-content {
+        margin-bottom: 5px;
+    }
+
+    .main-content {
+        margin-top: 100px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-content .post-list, .blog-content .sidebars {
+        width: 100%;
+    }
+}
+/* small devices (potrait tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 97%;
+    }
+    
+    .nav-links-content ul li {
+        padding-right: 20px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-content .post-list, .blog-content .sidebars {
+        width: 100%;
+    }   
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+/* large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .blog-content {
+        flex-direction: row;
+    }
+
+    .blog-content .post-list {
+        width: 72%;
+    }
+    
+    .blog-content .sidebars {
+        width: 25%;
+    }    
+}
+/* Extra large devices (large laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .container {
+        width: 1140px;
+    }
+
+    .nav-links-content ul li {
+        padding-right: 25px;
+    }
+
+    
+}
+

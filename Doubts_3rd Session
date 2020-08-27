@@ -1,0 +1,97 @@
+>>Basics
+--------
+Q.What is JQuery?and what is the difference between JQuery and Java Script?
+Q.what is npm?
+Q.Is bootstrap a software or it's a code just like CSS & HTML?
+Q.If it is a software how to install?
+Q.what is ng-bootstrap?
+Q.what is this bootstrap,what it contain and how it help in web developing?
+Q.Bootstrap gave priority to mobile devices ,why?
+Q.How the box-sizing property will help us?In which situation will it useful?
+Q.what is frame work?
+Q.what is Angular project , react project?
+Q.what is ng-server and ng-build?
+Q.If a web site was created at the time of Bootstrap3,that web site can upgrade with bootstarp4 ?
+Q.In bootstrap also have tables then what is the use of learning tables in HTML?
+Q.When i hit tab button the space it takes high compared to ur code?why 
+
+>>While  Practice:
+------------------
+Q.How and where can i get Bootstrap CSS file?
+
+Q.If we mention any class in <body> tag those properties will apply to whole body content right?
+
+Q.How to get Bootstrap css file?
+
+Q. Is meta charset must just like meta viewport?
+
+Q.when explaining about minifier , min.css file ,how the file size will effect?
+
+Q.when we are going to practice a webpage what are the points to memorise for easy practice.just like content alignment,
+
+Q.For creating or strating a webpage design what are the steps,Like folder creating,files downloading,font files,icon files etc...?
+
+Q.In mediplus webpage how do u know the background image was background to nav links too?
+
+Q.why can't we take a div for image?
+
+Q.In mediplus background image height taken as 700px why and how.
+
+Q.For background image fixing we use background-size property but in previous session we use width:100% what is the difference?
+
+Q.which class we have to take : confusion in bolded one "logo-nav-holder" & "collapse navbar-collapse"
+<div class="container-fluid logo-nav-holder">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent"><div class="container-fluid logo-nav-holder">
+
+Q.while in practice i am also giving the same dimensions but i did't get the same appearance in "our services" Emergency services below lines .
+  i also gave the same dimensions as u but i got different appearance.why it like this.
+ 
+Q.In this for icon purpose we took <div>,actually div is a block level element but in this senario it doesn't behave like that why?
+
+Q.while explaining about form section there is one button,how do u know that was a block level button? 
+  why we go for block level button selection?
+
+Q.Maximum cases we are using Bootstrap instead of CSS,if we do practice like this is there chance to forget the css properties?
+  Ex.Form concept in the Mediplus.There we used Bootstrap.By using CSS form propety also we can build that form right.
+
+Q.In mediplus highlight-section there is overlay class in that claa why the background not positioned with property position:relative,
+  why relative not worked and what will happened when we use relative.
+
+Q.we find that overlay by inspectibg if we get a DTP worked design how to find this type of overlay?
+
+Q.what is the difference between overlay and transform?
+
+Q.Why don't we use "media-object" in the footer >have a question? section...?u used flex box,
+
+Q.can't we use character code for heart symbol in footer instead of fontawesome?
+
+Q.Is CSS entity and character code both same or different,what is the difference?
+
+Q.In a nested div there are some classes,In those classes if i want to style in a 4 3 after class ,am i mention the nested class like 1>2>3
+
+Q.width: 100% 100% what it means ?
+
+**Q.<section></section> where it can useful? and what it is?
+
+Q.Some times I am unable to open two files in VS code.?
+
+Q.whta is the meaning for (max-width: 992px) and (min-width: 768px) some times it is clear but again i am getting confusion,for clearing this i need to pay some attention?
+
+Q.For mediplus responsive can't we set first media query as max-width: 992px; if we set like that the response changes we are not getting proper output?
+
+Q.I didn't observe any changes from 768px to 992px the response is same
+
+Q.We are here text was not responsive as in riginal for 576px?
+
+Q.can't we apply transition to doctors list>social links,it displays as block
+
+Q.Background image position is not exactly done as in reference.how to fit the background image too as it is in the reference one.
+
+

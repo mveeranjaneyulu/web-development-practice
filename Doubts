@@ -1,0 +1,108 @@
+>>Basics:
+---------
+Q.Shortcut keys you are using in VS code ?
+Q.http-server anedi program annav kadhaa is it inbuilt like windows mediaplayer which comes with windows OS or we have to install like vlc player?
+
+
+>>Borders:
+----------
+Q.Observed that the class name for paragraph was given as "p.dotted" like this why the class name like that why not ".dotted"?
+ ex: p.dotted, div.first-demo, in this the class was .dotted & .first-demo why we typing like p.dotted ........
+ 
+ Q.I checked that Jruler measurement and entry measurement does not match?
+ 
+ Q.what is the difference between <p> tag and <div> tag.
+ 
+ >>Fonts:
+ --------
+ Q.what is @font-face ? not understood
+ 
+ Q.Missmatch in jruler scale and entry code value. 
+   Ex.in code there is 300px but while measuring with jruler it doesn't shows 300px little  difference showed
+  
+>>Position:
+-----------
+Q.Better to explain this concept once? In the explaining time i will rise my questions?
+
+Q.In absolute position div ,why it doesn't occupy the entire width even we didn't apply any width?
+
+Q.In the snese of relative position & absolute position what is the reference for left,right,top & bottom ?
+
+Q.absolute position always search for its immediate positioned element right,
+  means  Is absolute position element always comes as a child element?
+  can u please explain the positions topic once? while u are explaining i am getting doubts?
+  
+Q.For applying properties on image there is a class like ".some-parent img" ,
+  this "class" was not mentioned by class attribute
+A.As per selector-combinators : space 
+
+>>float-clear
+-------------
+Q.Can't we display two divs side by side by using "display: inline-block" property?
+
+Q.If we mention without <p> tag for paragraph what is the difference and what will happen?
+
+Q.I am not understand the "clearfix::after" ? better to explain the this topic again for me?
+
+>>pseudo-classes
+----------------
+Q.while practicing i am getting difficulty,without seeing the code i am unable to type....
+  while seeing the video it is understood but difficulty while practicing..
+
+Q.Just like :first-child am i have :second-child pseudo class ?
+
+>>Gradients
+-----------
+Q.If we forgetn any "," like this how can we find out that wrong type entry?
+
+Q.Radial Gradient shape property ,I able to try only circle & ellipse why can't we set other shapes like square,rectangle,hectogon...etc?
+
+Q.In Gradient background & background-image are they both same ?Because u used that background-image but i used background.result was same?
+
+>>Animations
+------------
+Q.can we get slide show of images , by this animatios properties?
+
+>>Icons
+-------
+Q.Can u please explain the process for icon coding?
+
+Q.I am not able to understand how u are using cmp promt for these Icons...
+
+>>Responsive blog-float & clear
+-------------------------------
+Q.In nav-links bar for <li> padding-right applied to all list items except last one ,
+  but while i am practicing last item also getting padding,why & how?
+  
+Q.blog image width set as max-width:100%. what is the difference between max-width: 100% & width: 100%.But the result was same?
+
+Q.I am not clear about .article-card ? not understand the notation ".card.article-card" space not given?
+
+Q.Padding for <ul> was applied at top 7px but left 40px also shows why?
+
+Q.when i am applying margin-bottom to logo-content there is no disturbance between header and blog content image?
+
+Q.How will we design for responsive page.will client give the responsive desings too?
+
+Q.Is it mandatory to remove the margins to the body?
+
+Q.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

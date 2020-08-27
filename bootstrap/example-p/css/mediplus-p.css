@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.mini-header {
+    background-color: #207DFF;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 0px;
+}
+
+.mini-header .sign-link span {
+    padding: 0px 8px;
+}
+
+.mini-header .sign-link span:last-child {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 10px;
+}
+
+.main-header {
+    height: 600px;
+    background-image: url(../mediplus/images/bg_3.jpg);
+    background-size: 100%;
+}

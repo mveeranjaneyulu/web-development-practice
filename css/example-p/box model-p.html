@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Template-P</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .box-model-demo {
+                background-color: lightgray;
+                width: 300px;
+                border: 25px solid green;
+                margin: 25px;
+                padding: 25px;
+            }
+
+            .default {
+                width: 300px;
+                height: 100px;
+                border: 1px solid blue;
+            }
+
+            .default-with-padding {
+                width: 300px;
+                height: 100px;
+                border: 1px solid red;
+            }
+
+            .demo-border-box {
+                width: 300px;
+                height: 100px;
+                padding: 30px;
+                border: 1px solid green;
+                box-sizing: border-box;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h3><a href="./index-p.html">&lt;&lt; Back To Home</a></h3>
+
+        <img src="./images/box-model.PNG" alt="box-model">
+        <div class="box-model-demo">some content</div>
+        <h3>Box Sizing</h3>
+        <div class="default">default box-sizing</div><br>
+        <div class="default-with-padding">box-sizing:content box</div>
+        <br>
+        <div class="demo-border-box">box-sizing:border box</div>
+    </body>
+</html>

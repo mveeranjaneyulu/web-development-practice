@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Template-P</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    </head>
+    <body>
+        <h3><a href="./index-p.html">&lt;&lt; Back To Home</a></h3>
+
+        <h3>Descendant Selectors</h3>
+         <style>
+            .descendant-demo p {
+                background-color: yellow;
+            }
+        </style>
+        <div class="descendant-demo">
+            <p>some content in paragraph 1</p>
+                <div>some content in div 1</div>
+                <div>
+                    <p>some content in paragraph 2</p>
+                </div>
+        </div>
+
+        <h3>Child selector</h3>
+        <style>
+            .immediate-child-demo > p {
+                background-color: yellow;
+            }
+        </style>
+        <div class="immediate-child-demo">
+            <p>some content in paragraph 1</p>
+            <div>some content in div 1</div>
+            <p>some content in paragraph 2</p>
+            <div>
+                <p>content in next level paragraph</p>
+            </div>
+            <p>text</p>
+        </div>
+
+        <h3>Adjacent sibling selector</h3>
+        <style>
+            div.adjacent-sibling-demo + p {
+                background-color: yellow;
+            }
+        </style>
+        <div>
+            <p>some content in paragraph 1</p>
+            <p>some content in paragraph 2</p>
+            <div class="adjacent-sibling-demo">some content in div</div>
+            <p>some content in paragraph 3</p>
+            <p>some content in paragraph 4</p>
+        </div>
+
+        <h3>General Sibling Selector</h3>
+        <style>
+            div.general-sibling-demo ~ p {
+                background-color: yellow;
+            }
+        </style>
+        <div>
+            <p>some paragraph content</p>
+            <p>some paragraph content</p>
+            <div class="general-sibling-demo">some content in div</div>
+            <p>some paragraph content</p>
+            <p>some paragraph content</p>
+        </div>
+        <br><br><br>        
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title-p</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3><a href="../examples/index-p.html">&lt;&lt; Back To Home</a></h3>
+
+        <form>
+            Value attribute: <input type="text" name="firstname" value="" autocomplete="on"><br><br>
+
+            Disabled attribute: <input type="text" name="username" value="Anji" disabled><br><br>
+
+            Readonly attribute: <input type="text" name="middlename" value="Anji" readonly><br><br>
+
+            Size attribute: <input type="text" name="size1" value="Veera" size="100"><br><br>
+            Size attribute: <input type="text" name="size2" value="Veera" size="10"><br><br>
+
+            Maxlength attribute: <input type="text" name="surname" maxlength="10"><br><br>
+            Maxlength attibute Numbers: <input type="number" name="Mobole" maxlength="10"><br><br>
+
+            <input type="submit" value="submit form">
+            <input type="reset">
+        </form>
+
+        <h3>autocomplete, novalidate, autofocus, required</h3>      
+        <form action="add user-p.php" autocomplete="on" novalidate>
+            First Name: <input type="text" name="fname" required autofocus>
+            Last Name: <input type="text" name="lname" required><br><br>
+            E-mail: <input type="email" name="email" autocomplete="off" required><br><br>
+            <input type="submit">
+        </form>
+        
+        <h3>multiple, pattern, placeholder</h3>
+        <form action="add user-p.php">
+            First Name: <input type="text" name="fname" placeholder="Enter your First Name"><br><br>
+            Country Code: <input type="text" name="country code" pattern="[A-Za-z]" title="Three letter country code"><br><br>
+            Profile Pics: <input type="file" name="profile pics" multiple>
+            <input type="submit">
+        </form>
+    </body>
+</html>

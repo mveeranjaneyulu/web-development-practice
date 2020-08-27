@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #868686;
+    height: 200px;
+}
+.image-demo {
+    background-image: url(../images/paper.PNG);    
+}
+
+.image-demo2 {
+    background-image: url(../images/paper.PNG);
+    background-repeat: repeat-x;
+}
+
+.image-demo3 {
+    background-image: url(../images/paper.PNG);
+    background-repeat: repeat-y;
+}
+
+.image-demo4 {
+    background-image: url(../images/flowers.png);
+    background-position: right bottom;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-icons {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.header-icons li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.header-icons li:last-child {
+    padding-right: 30px;
+}
+
+.header-icons li a {
+    color: #000000;
+}
+
+.header-icons li a:hover {
+    opacity: .85;
+}
+
+.header-icons li:last-child a:hover {
+    opacity: 1;
+}
+
+.header-icons li a img {
+    height: 35px;
+    width: 30px;
+}
+
+
+.container-fluid .search-bar .col-12 .search input:hover {
+    text-shadow: none;
+}
+
+.container-fluid .search-bar .input-group input {
+    border-left: 0px;
+    border-right: 0px;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    height: 50px;
+}
+
+.container-fluid .search-bar .input-group .input-group-prepend .input-group-text {
+    background: none;
+    border-top-left-radius: 50rem;
+    border-bottom-left-radius: 50rem;
+    color: #999999;
+}
+
+.container-fluid .search-bar .input-group .input-group-append .input-group-text {
+    background: none;
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+    color: #999999;
+}
+
+.container-fluid .search-bar .input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.container-fluid .search-bar .col-12 {
+    padding: 0px 280px;
+    margin-bottom: 15px;
+}
+
+.container-fluid .search-bar p a {
+    font-size: 13px;
+    color: #1a0dab;
+}
+
+.container-fluid .search-bar .google-btn,
+.container-fluid .search-bar .feeling-btn {
+    background-color: #F2F2F2;
+    opacity: .85;
+    font-size: 14px;
+}
+
+.container-fluid .search-bar .google-btn:hover,
+.container-fluid .search-bar .feeling-btn:hover {
+    border: 1px solid #999999;
+}
+
+.footer {
+    background-color: #F2F2F2;
+    margin-top: 125px;
+}
+
+.footer span {
+    display: block;
+    color: #999999;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.footer .left-section ul, .footer .right-section ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.footer .left-section ul li , .footer .right-section ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.footer .left-section ul li a ,
+.footer .right-section ul li a {
+    color: #5f6368;
+    font-size: 14px;
+}

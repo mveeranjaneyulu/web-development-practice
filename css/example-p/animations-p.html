@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-Template-P</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            @keyframes change-backgrounds {
+                from {background-color: red;}
+                to {background-color: yellow;}
+            }
+
+            @keyframes change-backgrounds-percentage {
+                0%   {background-color: red;width:200px;}
+                25%  {background-color: yellow;width:300px;}
+                50%  {background-color: blue;width:400px;}
+                100% {background-color: tomato;width:500px;}
+            }
+            
+            .demo1 {
+                width: 150px;
+                height: 100px;
+                background-color: green;
+                animation-name: change-backgrounds;
+                animation-duration: 4s;
+            }
+
+            .demo2 {
+                width: 150px;
+                height: 100px;
+                background-color: green;
+                animation-name: change-backgrounds-percentage;
+                animation-duration: 6s;
+                /* animation-iteration-count: 3; */
+                animation-iteration-count: infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <h3><a href="./index-p.html">&lt;&lt; Back To Home</a></h3>
+
+        <div class="demo1">Some Content</div>
+
+        <h3>Keyframes with percentages</h3>
+        
+        <div class="demo2">Some Content</div>        
+    </body>
+</html>
